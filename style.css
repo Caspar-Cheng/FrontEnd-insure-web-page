@@ -1,0 +1,55 @@
+
+
+body {
+    font-size: 16px;
+    font-family: 'DM Serif Display', 'Karla', sans-serif;
+}
+
+
+.navbar, .btn {
+    text-transform: uppercase;
+}
+
+.navbar {
+    height: 80px;
+    font-family: 'Karla';
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+}
+
+.header-left {
+    margin: 90px 0;
+}
+
+.header .btn:hover {
+    background: white;
+    color: black;
+    border: none;
+}
+
+.header-hr {
+    width: 130px;
+    background-color: white;
+}
+
+.mobile {
+    display: none;
+}
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+  
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
