@@ -5,51 +5,189 @@ body {
     font-family: 'DM Serif Display', 'Karla', sans-serif;
 }
 
+section {
+    font-family: 'Karla';
+}
 
-.navbar, .btn {
+.navbar, .btn, #account {
     text-transform: uppercase;
 }
 
 .navbar {
     height: 80px;
-    font-family: 'Karla';
+}
+
+.navbar-brand {
+    margin-left: 10%;
+}
+
+.d-flex {
+    margin-right: 10%;
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    background-color: hsl(256, 26%, 20%);
+    background: hsl(256, 26%, 20%);
     color: white;
+    height: 600px;
 }
 
 .header-left {
-    margin: 90px 0;
+    margin: 90px 10%;
+    width: 600px;
 }
 
-.header .btn:hover {
+.header-first{
+    font-size: 80px;
+    line-height: 1;
+    font-weight: bold;
+    font-family: 'DM Serif Display';
+}
+
+.btn {
+    width: 150px;
+}
+
+.diy-button {
+    background: hsl(256, 26%, 20%);
+    color: white;
+    border: 1px solid white;
+}
+
+.diy-button:hover {
     background: white;
     color: black;
-    border: none;
+    font-weight: bold;
 }
 
-.header-hr {
+hr {
     width: 130px;
-    background-color: white;
+    background-color: rgb(180, 179, 179);
+    margin-bottom: 50px;
 }
 
 .mobile {
     display: none;
 }
 
+.header-image {
+    position: absolute;
+    left: 60%;
+    top: 180px;
+}
 
+.bg-left {
+    position: absolute;
+    top: 50%;
+}
 
+.bg-right {
+    position: absolute;
+    left: 76%;
+}
 
+#blog {
+    margin: 10%;
+}
+
+#blog h1 {
+    font-family: 'DM Serif Display';
+    margin-bottom: 50px;
+}
+
+.middle-first {
+    width: 400px;
+}
+
+.middle-first img {
+   margin-bottom: 30px;
+}
+
+.a {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'DM Serif Display';
+}
+
+.b {
+    color: grey;
+}
+
+#how-we-work {
+    display: flex;
+    flex-direction: row;
+    background: url(images/bg-pattern-how-we-work-desktop.svg) right no-repeat, hsl(256, 26%, 20%);
+    color: white;
+    height: 260px;
+    margin: 5% 10%;
+    padding: 60px;
+}
+
+#how-we-work h1 {
+    font-family: 'DM Serif Display';
+    margin-left: 20px;
+    font-size: 60px;
+}
+
+#how-we-work .btn {
+    margin-left: 45%;
+    height: 40px;
+    margin-top: 4%;
+}
+
+#account {
+    background: url(images/bg-pattern-footer-desktop.svg) left top no-repeat, hsl(0, 0%, 98%);
+    padding: 30px 0;
+}
+
+#account hr {
+    margin: 10px 10% 30px;
+    width: auto;
+}
+
+.first-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.account-image {
+    margin-left: 63%;
+}
+
+.account-image img {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.second-line {
+    margin: 0 10%;
+}
+
+.link-a {
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.link-b {
+    font-weight: bold;
+    color: hsl(270, 9%, 17%);
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.link-b:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 .attribution {
+    margin-top: 10px;
     font-size: 11px;
     text-align: center;
 }
   
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(36, 79%, 50%);
 }
